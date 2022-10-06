@@ -16,7 +16,28 @@
 </head>
 
 <body>
+    <a href="#" class="anchor"><span></span></a>
     <header class="header">
+        <div class="burger-menu">
+            <ul class="burger-menu-iner">
+                <li class="burger-menu-item">
+                    <a class="burger-menu__link" href="#demos">Demos</a>
+                </li>
+                <li class="burger-menu-item">
+                    <a class="burger-menu__link" href="#features">Features</a>
+                </li>
+                <li class="burger-menu-item">
+                    <a class="burger-menu__link" href="#pricing">Pricing</a>
+                </li>
+                <li class="burger-menu-item">
+                    <a class="burger-menu__link" href="#contacts">Contact</a>
+                </li>
+            </ul>
+            <div class="burger-auth">
+                <a class="burger-auth__item" href="#">Login</a>
+                <a class="burger-auth__item" href="#">Sing up</a>
+            </div>
+        </div>
         <div class="container-min">
             <div class="header-iner">
                 <div class="header-logo">
@@ -24,21 +45,26 @@
                 </div>
                 <ul class="header-menu-iner">
                     <li class="header-menu-item">
-                        <a class="header-menu__link" href="#">Demos</a>
+                        <a class="header-menu__link" href="#demos">Demos</a>
                     </li>
                     <li class="header-menu-item">
-                        <a class="header-menu__link" href="#">Features</a>
+                        <a class="header-menu__link" href="#features">Features</a>
                     </li>
                     <li class="header-menu-item">
-                        <a class="header-menu__link" href="#">Pricing</a>
+                        <a class="header-menu__link" href="#pricing">Pricing</a>
                     </li>
                     <li class="header-menu-item">
-                        <a class="header-menu__link" href="#">Contact</a>
+                        <a class="header-menu__link" href="#contacts">Contact</a>
                     </li>
                 </ul>
                 <div class="header-auth">
                     <a class="header-auth__item" href="#">Login</a>
                     <a class="header-auth__item" href="#">Sing up</a>
+                </div>
+                <div class="header-burger">
+                    <span class="header-burger__item"></span>
+                    <span class="header-burger__item"></span>
+                    <span class="header-burger__item"></span>
                 </div>
             </div>
         </div>
@@ -48,18 +74,18 @@
             <div class="container">
                 <div class="baner-iner">
                     <div class="baner-images">
-                        <img class="baner__image" src="img/Vector.svg" alt="">
-                        <img class="baner__image" src="img/Alarm_Clock.png" alt="">
-                        <img class="baner__image" src="img/Vector_2.svg" alt="">
-                        <img class="baner__image" src="img/Mobile_Screen_2.png" alt="">
-                        <img class="baner__image" src="img/Mobile_Screen_1.png" alt="">
-                        <img class="baner__image" src="img/Vector_3.svg" alt="">
-                        <img class="baner__image" src="img/Vector_5.svg" alt="">
-                        <img class="baner__image" src="img/Vector_4.svg" alt="">
-                        <img class="baner__image" src="img/clipboard.png" alt="">
+                        <img class="baner__image _anim-items" src="img/Vector.svg" alt="">
+                        <img class="baner__image _anim-items" src="img/Alarm_Clock.png" alt="">
+                        <img class="baner__image _anim-items" src="img/Vector_2.svg" alt="">
+                        <img class="baner__image _anim-items" src="img/Mobile_Screen_2.png" alt="">
+                        <img class="baner__image _anim-items" src="img/Mobile_Screen_1.png" alt="">
+                        <img class="baner__image _anim-items" src="img/Vector_3.svg" alt="">
+                        <img class="baner__image _anim-items" src="img/Vector_5.svg" alt="">
+                        <img class="baner__image _anim-items" src="img/Vector_4.svg" alt="">
+                        <img class="baner__image _anim-items" src="img/clipboard.png" alt="">
                     </div>
                     <div class="baner-top">
-                        <div class="baner-info">
+                        <div class="baner-info _anim-items">
                             <div class="baner-title">
                                 <h3 class="baner-title__item">A collaborative Time</h3>
                                 <h3 class="baner-title__item">Tracking that you Need</h3>
@@ -93,7 +119,7 @@
                 </div>
             </div>
         </section>
-        <section class="features">
+        <section class="features" id="features">
             <div class="container">
                 <div class="features-wrapper">
                     <img class="features-wraper__img _anim-items" src="img/3d_rocket.png" alt="">
@@ -163,7 +189,7 @@
                 </div>
             </div>
         </section>
-        <section class="analytics">
+        <section class="analytics" id="demos">
             <div class="container">
                 <div class="analytics-wraper">
                     <div class="container-min">
@@ -261,54 +287,56 @@
                     <img class="benefits__image _anim-items" src="img/benefits_09.png" alt="">
                     <img class="benefits__image _anim-items" src="img/benefits_10.svg" alt="">
                     <div class="container-min">
-                        <div class="benefits-title _anim-items">
-                            <span class="benefits-title__item">
-                                How our <span class="benefits-title__item_underline">Tracker</span> work for you
-                            </span>
-                            <span class="benefits-title__item">
-                                An enim nullam tempor sapien gravida donec enim ipsum porta justo congue
-                            </span>
-                            <span class="benefits-title__item">
-                                magna at pretium purus pretium ligula
-                            </span>
+                        <div class="benefits-content-iner">
+                            <div class="benefits-title _anim-items">
+                                <span class="benefits-title__item">
+                                    How our <span class="benefits-title__item_underline">Tracker</span> work for you
+                                </span>
+                                <span class="benefits-title__item">
+                                    An enim nullam tempor sapien gravida donec enim ipsum porta justo congue
+                                </span>
+                                <span class="benefits-title__item">
+                                    magna at pretium purus pretium ligula
+                                </span>
+                            </div>
+                            <dib class="benefits-row">
+                                <div class="benefits-col _anim-items">
+                                    <div class="benefits-logo-iner">
+                                        <img src="img/benefits_02.svg" alt="">
+                                    </div>
+                                    <div class="benefits-col-item">
+                                        <span class="benefits-col__title">Time Tracking</span>
+                                        <span class="benefits-col__text">Time Tracking is never been easier.</span>
+                                        <span class="benefits-col__text">Just let the stopwatch run</span>
+                                    </div>
+                                </div>
+                                <div class="benefits-col _anim-items">
+                                    <div class="benefits-logo-iner">
+                                        <img src="img/benefits_03.svg" alt="">
+                                    </div>
+                                    <div class="benefits-col-item">
+                                        <span class="benefits-col__title">Expenses</span>
+                                        <span class="benefits-col__text">Time Tracking is never been easier.</span>
+                                        <span class="benefits-col__text">Just let the stopwatch run</span>
+                                    </div>
+                                </div>
+                                <div class="benefits-col _anim-items">
+                                    <div class="benefits-logo-iner">
+                                        <img src="img/benefits_04.svg" alt="">
+                                    </div>
+                                    <div class="benefits-col-item">
+                                        <span class="benefits-col__title">Budget controlling</span>
+                                        <span class="benefits-col__text">Time Tracking is never been easier.</span>
+                                        <span class="benefits-col__text">Just let the stopwatch run</span>
+                                    </div>
+                                </div>
+                            </dib>
                         </div>
-                        <dib class="benefits-row">
-                            <div class="benefits-col _anim-items">
-                                <div class="benefits-logo-iner">
-                                    <img src="img/benefits_02.svg" alt="">
-                                </div>
-                                <div class="benefits-col-item">
-                                    <span class="benefits-col__title">Time Tracking</span>
-                                    <span class="benefits-col__text">Time Tracking is never been easier.</span>
-                                    <span class="benefits-col__text">Just let the stopwatch run</span>
-                                </div>
-                            </div>
-                            <div class="benefits-col _anim-items">
-                                <div class="benefits-logo-iner">
-                                    <img src="img/benefits_03.svg" alt="">
-                                </div>
-                                <div class="benefits-col-item">
-                                    <span class="benefits-col__title">Expenses</span>
-                                    <span class="benefits-col__text">Time Tracking is never been easier.</span>
-                                    <span class="benefits-col__text">Just let the stopwatch run</span>
-                                </div>
-                            </div>
-                            <div class="benefits-col _anim-items">
-                                <div class="benefits-logo-iner">
-                                    <img src="img/benefits_04.svg" alt="">
-                                </div>
-                                <div class="benefits-col-item">
-                                    <span class="benefits-col__title">Budget controlling</span>
-                                    <span class="benefits-col__text">Time Tracking is never been easier.</span>
-                                    <span class="benefits-col__text">Just let the stopwatch run</span>
-                                </div>
-                            </div>
-                        </dib>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="price">
+        <section class="price" id="pricing">
             <div class="container">
                 <div class="price-wrapper">
                     <img src="img/price_01.png" alt="" class="price__img _anim-items">
@@ -335,10 +363,11 @@
                                     <span class="price-row">1 seat</span>
                                     <span class="price-row">2 project</span>
                                     <span class="price-row">
-                                        <span class="price-row__item .price-row__item_dimmed">$</span><span
-                                            class="price-row__number">0</span>
-                                        <span class="price-row__item_dimmed">/Forever</span> </span>
-                                    <a class="price-row__link_orange" href="#">Start 14 Days Trial</a>
+                                        <span class="price-row__item .price-row__item_dimmed">$</span>
+                                        <span class="price-row__number">0</span>
+                                        <span class="price-row__item_dimmed">/Forever</span>
+                                    </span>
+                                    <a class="price-row price-row__link_orange" href="#">Start 14 Days Trial</a>
                                 </div>
                                 <div class="price-card price-card__orange _anim-items">
                                     <span class="price-row">Premium</span>
@@ -347,7 +376,7 @@
                                     <span class="price-row"><span class="price-row__item">$</span><span
                                             class="price-row__number" id="price">30</span> <span
                                             id="period">/Month</span> </span>
-                                    <a class="price-row__link_white" href="#">Start 14 Days Trial</a>
+                                    <a class="price-row price-row__link_white" href="#">Start 14 Days Trial</a>
                                 </div>
                             </div>
                         </div>
@@ -378,7 +407,7 @@
                     <div class="partners-right">
                         <div class="partners-title-iner _anim-items">
                             <span class="partners__title">See <span class="partners__title_underline">Our
-                                    trusted</span></span>
+                                    Trusted</span></span>
                             <span class="partners__title">partners</span>
                         </div>
                         <span class="partners__info _anim-items">
@@ -432,7 +461,7 @@
                 </div>
             </div>
         </section>
-        <section class="apps">
+        <section class="apps" id="contacts">
             <div class="container">
                 <div class="apps-wrapper">
                     <img class="apps__img _anim-items" src="img/apps_01.png" alt="">
@@ -440,7 +469,7 @@
                     <img class="apps__img _anim-items" src="img/apps_03.png" alt="">
                     <div class="container-min">
                         <div class="apps-iner">
-                            <span class="apps__title _anim-items">Get it now <span class="apps__title_underline">for
+                            <span class="apps__title _anim-items">Get it now <span class="apps__title_underline">For
                                     free</span></span>
                             <span class="apps__info _anim-items">
                                 We are offering free debit cards once you sing
@@ -476,10 +505,10 @@
                     <img src="img/Logo.svg" alt="">
                 </div>
                 <nav class="footer-links">
-                    <a class="footer__link" href="#">Demos</a>
-                    <a class="footer__link" href="#">Features</a>
-                    <a class="footer__link" href="#">Pricing</a>
-                    <a class="footer__link" href="#">Contact</a>
+                    <a class="footer__link" href="#demos">Demos</a>
+                    <a class="footer__link" href="#features">Features</a>
+                    <a class="footer__link" href="#pricing">Pricing</a>
+                    <a class="footer__link" href="#contacts">Contact</a>
                 </nav>
                 <div class="footer-socials">
                     <a class="footer-social__link" href="#">
