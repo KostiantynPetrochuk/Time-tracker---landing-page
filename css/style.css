@@ -331,7 +331,7 @@ body._active {
 }
 
 .baner-title__item:nth-child(2)::before {
-    content: url('/img/Shape.svg');
+    content: url('../img/Shape.svg');
     position: absolute;
     top: 20px;
     left: 0;
@@ -544,7 +544,7 @@ body._active {
 }
 
 .features-title__item_underline::before {
-    content: url(/img/Shape.svg);
+    content: url('../img/Shape.svg');
     position: absolute;
     top: 15px;
 }
@@ -718,7 +718,7 @@ body._active {
 }
 
 .features-card-front:nth-child(1) .features-card-img-iner::after {
-    content: url('/img/task-list.svg');
+    content: url('../img/task-list.svg');
     position: absolute;
 }
 
@@ -727,7 +727,7 @@ body._active {
 }
 
 .features-card-wrapper:nth-child(2) .features-card-front .features-card-img-iner::after {
-    content: url('/img/bell_1.svg');
+    content: url('../img/bell_1.svg');
     position: absolute;
 }
 
@@ -737,7 +737,7 @@ body._active {
 
 
 .features-card-wrapper:nth-child(3) .features-card-front .features-card-img-iner::after {
-    content: url('/img/agenda_1.svg');
+    content: url('../img/agenda_1.svg');
     position: absolute;
 }
 
@@ -785,7 +785,7 @@ body._active {
 }
 
 .analytics-title__item_underline::before {
-    content: url(/img/Shape.svg);
+    content: url('../img/Shape.svg');
     position: absolute;
     top: 20px;
     left: -27px;
@@ -1001,7 +1001,7 @@ body._active {
 }
 
 .benefits-title__item_underline::before {
-    content: url(/img/Shape.svg);
+    content: url('../img/Shape.svg');
     position: absolute;
     top: 15px;
     left: 0;
@@ -1336,7 +1336,7 @@ body._active {
 }
 
 .price__title_underline::before {
-    content: url(/img/Shape.svg);
+    content: url('../img/Shape.svg');
     position: absolute;
     top: 15px;
     left: 131px;
@@ -1550,7 +1550,7 @@ body._active {
 }
 
 .partners__title_underline::before {
-    content: url(/img/Shape.svg);
+    content: url('../img/Shape.svg');
     position: absolute;
     left: 59px;
     top: 17px;
@@ -1657,7 +1657,7 @@ body._active {
 }
 
 .response-title__item_underline::before {
-    content: url(/img/Shape.svg);
+    content: url('../img/Shape.svg');
     position: absolute;
     left: -18px;
     top: 20px;
@@ -1828,7 +1828,7 @@ body._active {
 }
 
 .apps__title_underline::before {
-    content: url(/img/Shape.svg);
+    content: url('../img/Shape.svg');
     position: absolute;
     left: -18px;
     top: 22px;
@@ -2357,15 +2357,15 @@ body._active {
     }
 
     .features-card-wrapper:nth-child(1) .features-card-front .features-card-img-iner::after {
-        content: url(/img/task-list-mini.svg);
+        content: url('../img/task-list-mini.svg');
     }
 
     .features-card-wrapper:nth-child(2) .features-card-front .features-card-img-iner::after {
-        content: url(/img/bell-1-mini.svg);
+        content: url('../img/bell-1-mini.svg');
     }
 
     .features-card-wrapper:nth-child(3) .features-card-front .features-card-img-iner::after {
-        content: url(/img/agenda-1-mini.svg);
+        content: url('../img/agenda-1-mini.svg');
     }
 
     .features-cadrs {
@@ -2775,7 +2775,7 @@ body._active {
     }
 
     .features-title__item_underline::before {
-        content: url(/img/Shape-2.svg);
+        content: url('../img/Shape-2.svg');
         top: 10px;
     }
 
@@ -2797,7 +2797,7 @@ body._active {
     }
 
     .analytics-title__item_underline::before {
-        content: url(/img/Shape-2.svg);
+        content: url('../img/Shape-2.svg');
         top: 10px;
         left: -142px;
     }
@@ -2878,7 +2878,7 @@ body._active {
     }
 
     .benefits-title__item_underline::before {
-        content: url(/img/Shape-2.svg);
+        content: url('../img/Shape-2.svg');
         top: 9px;
         left: -5px;
     }
@@ -2923,7 +2923,7 @@ body._active {
     }
 
     .price__title_underline::before {
-        content: url(/img/Shape-2.svg);
+        content: url('../img/Shape-2.svg');
         top: 10px;
         left: 37px;
     }
@@ -2958,7 +2958,7 @@ body._active {
     }
 
     .partners__title_underline::before {
-        content: url(/img/Shape-2.svg);
+        content: url('../img/Shape-2.svg');
         left: 39px;
         top: 7px;
     }
@@ -2977,7 +2977,7 @@ body._active {
     }
 
     .response-title__item_underline::before {
-        content: url(/img/Shape-2.svg);
+        content: url('../img/Shape-2.svg');
     }
 
     .response-title__item_underline::after {
@@ -3024,7 +3024,7 @@ body._active {
     }
 
     .apps__title_underline::before {
-        content: url(/img/Shape-2.svg);
+        content: url('../img/Shape-2.svg');
         font-size: 24px;
         left: 9px;
         top: 9px;
@@ -3089,7 +3089,7 @@ body._active {
     }
 
     .baner-title__item:nth-child(2)::before {
-        content: url(/img/Shape-2.svg);
+        content: url('../img/Shape-2.svg');
         top: 9px;
     }
 
