@@ -3243,4 +3243,129 @@ body._active {
 
 }
 
-@media screen and (max-width: 320px) {}
+@media screen and (max-width: 370px) {
+    .baner-bot {
+        width: 110%;
+    }
+
+    .baner-bot::before,
+    .baner-bot::after {
+        display: none;
+    }
+
+    .baner-bot__title {
+        font-size: 42px;
+    }
+
+
+    .features-title__item:nth-child(1) {
+        font-size: 20px;
+    }
+
+    .features-card-front,
+    .features-card-back {
+        height: 140px;
+        width: 260px;
+        border-radius: 20px;
+    }
+
+    .features-card-title:nth-child(1) {
+        font-size: 18px;
+    }
+
+    .features-wraper__img:nth-child(1)._active {
+        top: 200px;
+    }
+
+    .benefits__image:nth-child(4) {
+        left: 10px;
+    }
+
+    .benefits-col {
+        flex-direction: column;
+        margin: 10px 0;
+    }
+
+    .benefits-col-item {
+        margin: 10px 0 0 0;
+    }
+
+    .analytics-left__img:nth-child(2) {
+        left: 70px;
+    }
+
+    .analytics-left__img:nth-child(3) {
+        left: -10px;
+    }
+
+    .analytics-left__img:nth-child(4) {
+        left: 198px;
+    }
+
+    .analytics-left__img:nth-child(5) {
+        left: 12px;
+    }
+
+    .analytics-left__img:nth-child(6) {
+        left: 137px;
+    }
+
+    .analytics-left__img:nth-child(7) {
+        left: 111px;
+    }
+
+    .analytics-row {
+        flex-direction: column;
+    }
+
+    .analytics-row-info {
+        margin: 10px 0 0 0;
+    }
+
+    .analytics-right {
+        padding-top: 0;
+    }
+
+    .analytics-iner {
+        grid-template-rows: 0.4fr 1fr;
+    }
+
+    .price-card {
+        height: 214px;
+        width: 250px;
+    }
+
+    .price__title {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .price-checkbox {
+        margin: 40px 0;
+    }
+
+    .price-ckeckbox__title {
+        font-size: 22px;
+    }
+
+    .partners__link {
+        margin-top: 20px;
+    }
+
+    .response {
+        padding: 173px 0 50px 0;
+    }
+
+    .apps-iner {
+        margin-left: 0px;
+        padding: 20px 0;
+    }
+
+    .apps__img:nth-child(2) {
+        height: 50px;
+    }
+
+    .footer-bot {
+        font-size: 14px;
+    }
+}
